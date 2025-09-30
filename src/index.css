@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+:root {
+  --color-primary: #4b03a3; /* light purple */
+  --color-bg-light: #f9f6ff;
+  --color-bg-dark: #1a1a1a;
+  --color-text-light: #111;
+  --color-text-dark: #eee;
+}
+
+/* Global light/dark backgrounds */
+body {
+  @apply bg-gradient-to-br from-purple-200 to-white dark:from-gray-900 dark:to-gray-800;
+  color: var(--color-text-light);
+}
+
+.dark body {
+  color: var(--color-text-dark);
+}
+
+/* Reusable classes */
+.text-primary {
+  color: var(--color-primary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.resume{
+  width: 300px;
+  align-content: center;
+}
+
