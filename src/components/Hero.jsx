@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="home" className=" hero min-h-screen flex flex-col items-center justify-center text-center px-4">
+    <section id="home" className=" min-h-screen flex flex-col items-center justify-center text-center px-4">
       <h2 className="text-4xl md:text-6xl font-bold mb-4">
         I’m Dhanush
       </h2><h2 className="  text-2xl md:text-3xl font-bold mb-4 text-primary">React Developer & UI/UX Desiger</h2>
