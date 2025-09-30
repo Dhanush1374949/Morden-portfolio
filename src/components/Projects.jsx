@@ -4,7 +4,7 @@ export default function Projects() {
   const projects = [
     { title: "E-commerce Platform", desc: "Built a responsive e-commerce platform for Laura Cosmetics with elegant UI, intuitive navigation, and secure checkout for beauty and skincare products.", link: "https://www.behance.net/gallery/230664095/Laura-Skin-Care-Product" },
     { title: "Fitness App", desc: "Fittuf is a modern, responsive fitness web app built entirely with React. It helps users explore workouts, track fitness goals, and stay motivated with an intuitive interface and smooth interactions.", link: "https://github.com/Dhanush1374949/FITTUFapp" },
-    { title: "Portfolio Website", desc: "A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. It highlights my skills in frontend development and UI/UX design with smooth animations, interactive components, and a clean, user-friendly interface across all devices.", link: "#" },
+    { title: "Portfolio Website", desc: "A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. It highlights my skills in frontend development and UI/UX design with smooth animations, interactive components, and a clean, user-friendly interface across all devices.", link: "https://github.com/Dhanush1374949/Morden-portfolio" },
     { title: "Search App", desc: "Kita Search App is a fast, responsive web app built with Vite , React , and Tailwind CSS . Search online and view results with text, images, and links. Features real-time search , responsive design , and RapidAPI for state management", link: "https://github.com/Dhanush1374949/Kita-Search" },
   ];
 
