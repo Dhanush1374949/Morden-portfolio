@@ -3,6 +3,7 @@ export default function Skills() {
     { name: "UI Design", level: 90 },
     { name: "UX Design", level: 60 },
     { name: "React.js", level: 85 },
+    { name: "Node.js", level: 85 },
     { name: "Tailwind CSS", level: 80 },
     { name: "Bootstrap 5", level: 75 },
     { name: "SQL", level: 70 },
