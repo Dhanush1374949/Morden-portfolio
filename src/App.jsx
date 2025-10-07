@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import SocialLinks from "./components/SocialLinks";
 import Footer from "./components/Footer";
@@ -27,7 +27,7 @@ export default function App() {
       <About />
       <Skills/>
       <Projects />
-      <Resume />
+      {/* <Resume /> */}
       <Contact />
       <SocialLinks />
       <Footer/>
